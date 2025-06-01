@@ -15,7 +15,7 @@ A real-time web app that translates **English** to **American Sign Language (ASL
 1.  Clone the repo:
 
     ```bash
-    git clone https://github.com/i1sm3ky/Sign-Language-Translation.git
+    git clone https://github.com/chopra-mayank/Sign-Language-Translation.git
     cd Sign-Language-Translation-main
     ```
 
@@ -27,14 +27,13 @@ A real-time web app that translates **English** to **American Sign Language (ASL
 
 3.  Change model API links in `app.jsx`.
 
-        ```
-
-    const APIs = {
-    TextToSign: "ADD-YOUR-API-HERE",
-    SignToTextASL: "ADD-YOUR-API-HERE",
-    SignToTextISL: "ADD-YOUR-API-HERE",
-    };
-    ```
+       ```
+        const APIs = {
+        TextToSign: "ADD-YOUR-API-HERE",
+        SignToTextASL: "ADD-YOUR-API-HERE",
+        SignToTextISL: "ADD-YOUR-API-HERE",
+        };
+       ```
 
 4.  Run the app:
 
