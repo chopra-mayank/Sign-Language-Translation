@@ -6,11 +6,11 @@ import CamModel from "./CamModel";
 import CustomPoseViewer from "./CustomPoseViewer";
 import "./app.css";
 
-const APIs = {
-  TextToSign: "https://us-central1-sign-mt.cloudfunctions.net/spoken_text_to_signed_pose",
-  SignToTextASL: "https://teachablemachine.withgoogle.com/models/coTkM8gJm/",
-  SignToTextISL: "https://teachablemachine.withgoogle.com/models/28SM28tYM/",
-};
+ const APIs = {
+ TextToSign: "ADD-YOUR-API-HERE",
+ SignToTextASL: "ADD-YOUR-API-HERE",
+ SignToTextISL: "ADD-YOUR-API-HERE",
+ };
 
 function debounce(callback, delay) {
   let timer;
